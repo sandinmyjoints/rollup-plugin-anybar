@@ -1,7 +1,18 @@
 {
   "name": "rollup-plugin-anybar",
+  "version": "0.0.1",
   "packageManager": "yarn@4.4.1",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es/index.js",
+  "exports": {
+    "import": "./dist/es/index.js",
+    "default": "./dist/cjs/index.js"
+  },
   "devDependencies": {
     "rollup": "^4.30.1"
+  },
+  "scripts": {
+    "build": "rollup -c"
   }
 }
