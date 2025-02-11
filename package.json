@@ -2,6 +2,13 @@
   "name": "rollup-plugin-anybar",
   "version": "0.0.1",
   "packageManager": "yarn@4.4.1",
+  "keywords": [
+    "rollup",
+    "plugin",
+    "vite",
+    "anybar",
+    "macos"
+  ],
   "type": "module",
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.js",
